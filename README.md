@@ -15,7 +15,7 @@ In your javascript:
     var options = {
       width: 80 // The css width to be applied to the textfield
     };
-    $('.money).money_field(options); // Or just $('.money).money_field
+    $('.money').money_field(options); // Or just $('.money').money_field();
     
 Resulting fields look like this: https://skitch.com/dubroe/8at3d/bootstrap-money-field
     
