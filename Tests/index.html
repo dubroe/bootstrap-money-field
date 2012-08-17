@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="../jquery.bootstrap-money-field.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.money').money_field({});
+		})
+	</script>
+</head>
+<body>
+<div class="container">
+<form class="form-horizontal">
+<fieldset>
+<legend>Money field test page.</legend>
+<div class="control-group">
+	<label class="control-label" for="input01">Text input</label>
+	<div class="controls">
+	<input type="text" class="input-xlarge money" id="input01">
+	<p class="help-block">Choose the currency</p>
+	</div>
+</div>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
